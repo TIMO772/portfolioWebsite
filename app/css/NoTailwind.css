@@ -1,0 +1,56 @@
+.header{
+    animation: header 0.5s 1;
+}
+.img{
+    animation: img 0.5s 1;
+}
+.box::before{
+    content: '';
+    position: absolute;
+    transition: 0.5s;
+    background: linear-gradient(315deg , blue , cyan);
+    inset: -10px 140px;
+    animation: spin 4s linear infinite;
+}
+.box:hover::before{
+    inset: -20px 0px;
+}
+.box::after{
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+.h-80v{
+    height: 80vh;
+}
+@keyframes header{
+    50%{
+        padding-left: 400px;
+        padding-right: 400px;
+    }
+    100%{
+        padding-left: 208px;
+        padding-right: 208px;
+    }
+}
+@keyframes img {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 500px;
+        height: 500px;
+    }
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    0%{
+        transform: rotate(360deg);
+    }
+}
