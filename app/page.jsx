@@ -30,7 +30,7 @@ export default function Home() {
             </span></h3>
             <div className='social-box flex items-center w-53'>
               <Link href='/' className=' bg-white text-blue-700 flex items-center px-4 p-4 text-2xl rounded-full mt-4 mr-4 border-slate-400 border-t border-r shadow-xl  transition hover:scale-110'> <FontAwesomeIcon icon={faXTwitter} /> </Link>
-              <Link href='/' className=' bg-white text-blue-700 flex items-center px-4 p-4 text-2xl rounded-full mt-4 mr-4 border-slate-400 border-t border-r shadow-xl transition hover:scale-110'>  <FontAwesomeIcon icon={faFacebook} /> </Link>
+              <Link href='/' className=' bg-white text-blue-700 flex items-center px-4 p-4 text-2xl rounded-full mt-4 mr-4 border-slate-400 border-t border-r shadow-xl transition hover:scale-110'>  <FontAwesomeIcon icon="fa-brands fa-facebook" /> </Link>
               <Link href='/' className=' bg-white text-blue-700 flex items-center px-4 p-4 text-2xl rounded-full mt-4 mr-4 border-slate-400 border-t border-r shadow-xl transition hover:scale-110'>  <FontAwesomeIcon icon={faInstagram} />  </Link>
               <Link href='/' className=' bg-white text-blue-700 flex items-center px-4 p-4 text-2xl rounded-full mt-4 mr-4 border-slate-400 border-t border-r shadow-xl transition hover:scale-110'>  <FontAwesomeIcon icon={faLinkedin} />  </Link>
             </div>
