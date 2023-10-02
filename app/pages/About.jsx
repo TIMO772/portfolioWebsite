@@ -17,7 +17,7 @@ export default function About() {
                     </div>
                     <div className="box relative rounded-full bg-black w-96 h-96 overflow-hidden">
                         <div className="absolute rounded-full overflow-hidden" style={{ zIndex: '3', inset: '10px' }}>
-                            <Image height={400} width={400} src={'/photo2.webp'} className='image object-cover top-0 left-0' alt=''/>
+                            <Image height={400} width={400} src={'/photo2.webp'} className='image object-cover top-0 left-0' alt=''loading='lazy' blurDataURL="URL" placeholder="blur" />
                         </div>
                     </div>
                 </div>

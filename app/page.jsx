@@ -38,7 +38,7 @@ export default function Home() {
               Lorem, ipsum dolor sit amet c
               onsectetur adipisicing elit. Laboriosam autem inventore, ut quasi officiis quaerat praesentium  </p>
           </div>
-          <Image src="/photo.png" className='img rounded-full' alt=' ' height={500} width={500} loading='lazy'/>
+          <Image src="/photo.png" className='img rounded-full' alt=' ' height={500} width={500} loading='lazy' blurDataURL="URL" placeholder="blur"/>
         </div>
       </section>
       <About_ />
