@@ -2,15 +2,16 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image'
+import dynamic from 'next/dynamic';
 import Link from 'next/link'
 import Header from './components/header'
 import Typewriter from 'typewriter-effect'
 import './css/NoTailwind.css'
-import About from './pages/About';
 import Skills from './pages/Skills'
 import Serveis from './pages/Servies'
 import './css/Mobilescreen.css'
 export default function Home() {
+  const About_ = dynamic(() => import('./pages/About'))
 
   return (
     <>
@@ -37,10 +38,10 @@ export default function Home() {
               Lorem, ipsum dolor sit amet c
               onsectetur adipisicing elit. Laboriosam autem inventore, ut quasi officiis quaerat praesentium  </p>
           </div>
-          <Image src="/photo.png" className='img rounded-full' alt=' ' height={500} width={500} />
+          <Image src="/photo.png" className='img rounded-full' alt=' ' height={500} width={500} loading='lazy'/>
         </div>
       </section>
-      <About />
+      <About_ />
     </>
   )
 }
