@@ -1,6 +1,7 @@
-import Image from "next/image"
+import dynamic from 'next/dynamic';
 import '../css/Mobilescreen.css'
 export default function Skills() {
+    const Image  = dynamic(() => import('next/image'))
     return (
         <>
             <section className="w-full flex flex-col items-center bg-white" style={{height : '67vh'}} id="skills">

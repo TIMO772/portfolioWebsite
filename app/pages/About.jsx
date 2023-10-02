@@ -1,7 +1,8 @@
 import '../css/NoTailwind.css'
-import Image from 'next/image'
 import '../css/Mobilescreen.css'
+import dynamic from 'next/dynamic';
 export default function About() {
+    const Image  = dynamic(() => import('next/image'))
     return (
         <>
             <section className="about-section w-full bg-white flex flex-col items-center h-80v" id='about'>

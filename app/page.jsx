@@ -1,17 +1,17 @@
 'use client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import Image from 'next/image'
 import dynamic from 'next/dynamic';
-import Link from 'next/link'
-import Header from './components/header'
-import Typewriter from 'typewriter-effect'
 import './css/NoTailwind.css'
-import Skills from './pages/Skills'
-import Serveis from './pages/Servies'
 import './css/Mobilescreen.css'
 export default function Home() {
   const About_ = dynamic(() => import('./pages/About'))
+  const Skills_ = dynamic(() => import('./pages/Skills'))
+  const Servies_ = dynamic(() => import('./pages/Servies'))
+  const Writer = dynamic(() => import('typewriter-effect'))
+  const Link  = dynamic(() => import('next/link'))
+  const Header = dynamic(() => import('./components/header'))
+  const Image  = dynamic(() => import('next/image'))
 
   return (
     <>
@@ -21,7 +21,7 @@ export default function Home() {
           <div className='text-box flex flex-col w-full text-slate-700' style={{ fontFamily: 'system-ui' }}>
             <h1 className="text-7xl font-bold mb-2">Hello I'm <span className='text-blue-700'>Tim</span> </h1>
             <h3 className="text-5xl font-bold flex">I'm a   <span className='text-blue-700  ml-3' id='text-typed'>
-              <Typewriter
+              <Writer
                 options={{
                   autoStart: true,
                   strings: ['Frontend Devoloper', 'Python Devoloper'],
