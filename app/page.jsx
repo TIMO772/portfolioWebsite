@@ -1,6 +1,6 @@
 'use client';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXTwitter, faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { faXTwitter, faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from './components/header'
@@ -37,7 +37,7 @@ export default function Home() {
               Lorem, ipsum dolor sit amet c
               onsectetur adipisicing elit. Laboriosam autem inventore, ut quasi officiis quaerat praesentium  </p>
           </div>
-          <Image src="/photo.png" className='img rounded-full' alt=' 'height={500} width={500}  />
+          <Image src="/photo.png" className='img rounded-full' alt=' ' height={500} width={500} />
         </div>
       </section>
       <About />
