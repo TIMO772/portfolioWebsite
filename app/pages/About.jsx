@@ -6,8 +6,8 @@ export default function About() {
     return (
         <>
             <section className="about-section w-full bg-white flex flex-col items-center h-80v" id='about'>
-                <h1 className="about-title text-6xl font-bold mt-1 text-slate-950" style={{ fontFamily: 'system-ui' }}>ABOUT</h1>
-                <div className="about-box w-4/6 shadow-2xl h-3/4 rounded-2xl flex justify-between items-center px-16 mt-8 border border-slate-300" data-aos='fade-up'>
+                <h1 className="about-title text-6xl font-bold mt-1 text-slate-950" style={{ fontFamily: 'system-ui' } } data-aos='fade-right' >ABOUT</h1>
+                <div className="about-box w-4/6 shadow-2xl h-3/4 rounded-2xl flex justify-between items-center px-16 mt-8 border border-slate-300" data-aos='fade-up-right' data-aos-duration="1500" >
                     <div className="text-about flex justify-center flex-col w-1/2">
                         <h1 className='text-4xl text-slate-950 font-bold mb-3'>Who I am</h1>
                         <p className='text-slate-950 text-lg opacity-80'>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptate eveniet eum!
