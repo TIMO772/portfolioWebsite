@@ -10,7 +10,7 @@ import Aos from 'aos';
 
 export default function Home() {
   const About_ = dynamic(() => import('./pages/About'))
-  const Skills_ = dynamic(() => import('./pages/Skills'))
+  const Skills = dynamic(() => import('./pages/Skills'))
   const Servies_ = dynamic(() => import('./pages/Servies'))
   const Writer = dynamic(() => import('typewriter-effect'))
   const Link = dynamic(() => import('next/link'))
@@ -49,6 +49,7 @@ export default function Home() {
         </div>
       </section>
       <About_ />
+      <Skills />
     </>
   )
 }

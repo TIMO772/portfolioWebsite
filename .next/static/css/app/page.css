@@ -310,6 +310,7 @@
     .about-title {
         font-size: 35px;
     }
+    
 
 }
 
@@ -381,6 +382,21 @@
 
     .about-title {
         font-size: 35px;
+    }
+    .s-title{
+        font-size: 36.7px;
+    }
+    .s-card{
+        width: 16rem;
+        height: 5.6rem;
+        margin: 7px 7px;
+    }
+    .s-card img{
+        height: 50px;
+        width: 50px;
+    }
+    .s-card h1{
+        font-size: 18.1px;
     }
 
 }
@@ -454,6 +470,21 @@
 
     .about-title {
         font-size: 35px;
+    }
+    .s-title{
+        font-size: 36.7px;
+    }
+    .s-card{
+        width: 16rem;
+        height: 5.6rem;
+        margin: 7px 7px;
+    }
+    .s-card img{
+        height: 50px;
+        width: 50px;
+    }
+    .s-card h1{
+        font-size: 18.1px;
     }
 
 }
@@ -532,6 +563,21 @@
 
     .about-title {
         font-size: 35px;
+    }
+    .s-title{
+        font-size: 36.7px;
+    }
+    .s-card{
+        width: 16rem;
+        height: 5.6rem;
+        margin: 7px 7px;
+    }
+    .s-card img{
+        height: 50px;
+        width: 50px;
+    }
+    .s-card h1{
+        font-size: 18.1px;
     }
 
 }
@@ -617,6 +663,21 @@
 
     .about-title {
         font-size: 35px;
+    }
+    .s-title{
+        font-size: 25px;
+    }
+    .s-card{
+        width: 16rem;
+        height: 5.6rem;
+        margin: 7px 7px;
+    }
+    .s-card img{
+        height: 50px;
+        width: 50px;
+    }
+    .s-card h1{
+        font-size: 18.1px;
     }
 
 }
